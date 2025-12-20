@@ -16,8 +16,8 @@ description              : Gurjot Gill - Projects and CV
 baseurl                  : "/fa25-portfolio-Gurjot-Gill" # Set this to your repo name 
 
 # Theme and Style
-theme: jekyll-theme-minimal
-color_scheme: aqua # light/default, dark, or aqua
+theme: jekyll-theme-hacker
+color_scheme: dark # light/default, dark, or aqua
 
 sass:
   style: compressed
