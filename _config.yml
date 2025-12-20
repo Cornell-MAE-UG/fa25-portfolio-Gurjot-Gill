@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Gurjot Gill
 description              : Gurjot Gill - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/fa25-portfolio-Gurjot-Gill" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
