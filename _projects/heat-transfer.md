@@ -17,9 +17,9 @@ In a heat exchanger, thermal energy is transferred from the hot fluid to the col
 
 Flow rate also plays a critical role in performance. At low flow rates, fluids remain in the exchanger longer, allowing more time for heat transfer. At high flow rates, residence time decreases, reducing the temperature change experienced by each fluid.
 
-![cross section 2]({{ "/assets/images/cross2.jpg" | relative_url }}){: style="display: block; margin: 0 auto; width: 200px;"}
+![cross section 2]({{ "/assets/images/cross2.jpg" | relative_url }}){: style="display: block; margin: 0 auto; width: 400px;"}
 
-![cross section 1]({{ "/assets/images/cross1.jpg" | relative_url }}){: style="display: block; margin: 0 auto; width: 200px;"}
+![cross section 1]({{ "/assets/images/cross1.jpg" | relative_url }}){: style="display: block; margin: 0 auto; width: 400px;"}
 
 ---
 
@@ -29,7 +29,7 @@ The heat exchanger is modeled as a steady-flow control volume with two fluid inl
 
 ![diagram]({{ "/assets/images/HE.png" | relative_url }}){: style="display: block; margin: 0 auto; height: 150px;"}
 <p align="center">
-  *Parallel Flow Heat Exchanger, Control Volume* 
+  Parallel Flow Heat Exchanger, Control Volume 
 </p>
 <p align="center">
   ṁ<sub>in</sub> = ṁ<sub>out</sub> 
