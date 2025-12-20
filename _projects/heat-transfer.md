@@ -25,7 +25,7 @@ Flow rate also plays a critical role in performance. At low flow rates, fluids r
 
 ### System Diagram and Control Volume Description
 
-The heat exchanger is modeled as a steady-flow control volume with two fluid inlets and two fluid outlets. No shaft work is performed, and kinetic and potential energy effects are neglected. Heat transfer occurs internally between the two fluid streams through the exchanger wall, with minimal heat loss to the surroundings.
+The heat exchanger is modeled as a steady-flow control volume with two fluid inlets and two fluid outlets. No shaft work is performed, and kinetic and potential energy effects are neglected. Heat transfer occurs internally between the two fluid streams through the exchanger wall, with minimal heat loss to the surroundings. The energy balance, mass balance, and entropy balance are as given below.
 
 ![diagram]({{ "/assets/images/HE.png" | relative_url }}){: style="display: block; margin: 0 auto; height: 150px;"}
 <p align="center">
@@ -47,7 +47,7 @@ The heat exchanger is modeled as a steady-flow control volume with two fluid inl
 
 Temperature data showed that counterflow operation consistently produced larger cold-side temperature increases than parallel flow, particularly at low flow rates. Under low-flow counterflow operation, the cold reservoir temperature increased by approximately 20.9 °F, compared to approximately 18.5 °F for parallel flow. Counterflow operation also approached thermal equilibrium more closely, indicating higher effectiveness.
 
-Increasing the flow rate reduced the magnitude of temperature changes in both the hot and cold streams. This behavior is attributed to reduced residence time within the heat exchanger, which limits the total heat transferred despite increased convective coefficients.
+Increasing the flow rate reduced the magnitude of temperature changes in both the hot and cold streams. This behavior is attributed to reduced residence time within the heat exchanger, which limits the total heat transferred.
 
 ---
 
@@ -66,10 +66,10 @@ A cold-side temperature gain ratio was also calculated by comparing cold-side te
 ## Effect of Design and Operating Changes
 
 *Change in Flow Configuration*
-
 Switching from parallel flow to counterflow increases the average temperature difference between the hot and cold streams along the exchanger length. This reduces entropy generation and increases overall heat transfer effectiveness, as supported by the larger cold-side temperature increases and closer approach to thermal equilibrium observed experimentally.
+
 *Change in Flow Rate*
-Increasing the flow rate decreases residence time, reducing the temperature change experienced by each fluid. While higher flow rates may increase the convective heat transfer coefficient, the reduced contact time dominated system behavior, resulting in lower overall temperature changes.
+Increasing the flow rate decreases resistance time, reducing the temperature change experienced by each fluid. While higher flow rates may increase the convective heat transfer coefficient, the reduced contact time dominated system behavior, resulting in lower overall temperature changes.
 
 ---
 
