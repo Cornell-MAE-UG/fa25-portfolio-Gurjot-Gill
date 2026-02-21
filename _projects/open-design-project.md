@@ -5,7 +5,6 @@ description: Spotted Lantern Fly Solution
 technologies: N/A
 image: /assets/images/slf.jpg
 ---
-For a class, we were asked to analyze the performance of a heat exchanger when performing in parallel flow, counter flow, and low vs. high flow rate. The system analyzed is a liquid-to-liquid heat exchanger used to transfer thermal energy from a hot fluid stream to a cold fluid stream without direct mixing. The exchanger can be configured in either parallel-flow or counterflow operation and operated at different flow rates. Temperature measurements were taken before and after flow occurred to characterize heat transfer behavior under varying operating conditions.
 
 # SLF Mechanical Repellant from Grape Harvester
 
