@@ -75,7 +75,6 @@ A set of towers vibrating at 60 Hz placed around the field to attract the SLF to
 3. Is there space in the fields to place a structure such as a tower?
  *Decision affected:* If we are not able to place something in the field, we may not be able to implement our vibration solution in the currently intended method.
 
-\newpage
 
 ## Sources Cited
 
