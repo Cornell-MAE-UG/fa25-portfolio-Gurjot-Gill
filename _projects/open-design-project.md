@@ -9,76 +9,114 @@ image: /assets/images/slf.jpg
 # SLF Mechanical Repellant from Grape Harvester
 
 **Team:** Lanternfly Killers  
-**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
-## Problem Statement 
+---
 
-Just 1-2 adult spotted lantern flies (SLF) can taint a kilogram of grade slurry; with how prevalent they are, this can add up rapidly. Farmers are searching for ways of managing the SLF population without diminishing the potential crop yield. One way that the SLF population enters the crop yield is via the harvester during harvest. Finding a way to remove the flies off of the vines as the harvester intakes the grapes is important to prevent them from tainting the crop.
+## Table of Contents
 
-## Impact
+- [Client Pitch](#client-pitch)
+- [Functional Prototype](#functional-prototype)
 
-If we reduce the amount of SLF present in the crop yield, we will be able to help the farmers financially, since less crop will be thrown away due to SLF contamination. In addition, there will be less scarcity of grape products, since more products will make their way to the shelves, allowing businesses to not lose customers or profit. The consumers will also benefit from the lower costs associated with the abundance of grape products.
+---
 
-## Proposed Direction(s)
+## Client Pitch {#client-pitch}
 
-### Concept A: Blower
+### Problem Statement
 
-**What it is:**  
-A system of devices attached to the front of the harvester to blow the SLF off of the vines before they can enter the harvester. This could be similar to the end of a car wash, but less strong.
+Just 1–2 adult spotted lanternflies (SLF) can taint a kilogram of grape slurry. With how prevalent they are in vineyards, this contamination adds up rapidly. Farmers are searching for ways to manage the SLF population without diminishing crop yield. One key entry point is the harvester itself — SLFs present on the vines can enter the machine during harvest. Finding a way to remove flies from the vines as the harvester intakes grapes is critical to preventing crop contamination.
 
-**How it would be used:**  
-- Attached in front of the harvester pointing outward toward the grape vines. 
-- A fan would blow a steady stream of air toward the vines, causing the SLF to fly outwards to avoid the irritation. 
-- The flow of air would also stop the SLF from flying into the harvester after they left the vine. 
+### Impact
 
+Reducing the number of SLF present in the crop yield would benefit the entire supply chain. Farmers would benefit financially as less crop would be discarded due to contamination. Consumers and businesses would benefit from the resulting reduction in scarcity and cost of grape products.
 
-**Why it’s better than the status quo:**  
-- This is better than the “status quo” of using chemicals to deter or remove SLF from the grapes, since the chemicals may end up contaminating the grape product, making it unusable.
-- This is better than the “status quo” in the way that it doesn’t just scare away bugs but physically moves them to a singular destination and traps them.
+### Proposed Directions
 
-### Concept B: Vibration Attraction Device
+#### Concept A: Blower
 
-**What it is:**  
-A set of towers vibrating at 60 Hz placed around the field to attract the SLF to liquid chemical traps. 
+A system of devices attached to the front of the harvester that blows SLF off the vines before they can enter the machine — similar in principle to the drying stage of a car wash, but calibrated to dislodge insects without damaging fruit.
 
-**How it would be used:**  
-- Towers with mechanical vibration devices to attract the SLF.
-- An electrified outer cage to shock the SLF when they touch the trap.
-- A container below to catch the dead SLF for easy removal.
+**How it would be used:**
+- Mounted in front of the harvester, pointing outward toward the grape vines
+- A fan produces a steady airstream toward the vines, causing SLF to fly outward
+- The continuous airflow also prevents SLF from flying back into the harvester after leaving the vine
 
+**Why it's better than the status quo:**
+- Avoids chemical deterrents that risk contaminating the crop
+- Physically displaces insects rather than simply deterring them
 
+#### Concept B: Vibration Attraction Device
 
-**Why it’s better than the status quo:**  
-- This is better than the “status quo” because it eliminates SLF year-round without having to continuously spray.
-- This is better than the “status quo”  because it does not require any changes to the harvester and saves money because it is a one-time purchase, not a yearly cost. 
+A set of vibrating towers placed around the field to attract SLF toward liquid chemical traps.
 
+**How it would be used:**
+- Towers with mechanical vibration devices operating at 60 Hz to attract SLF
+- An electrified outer cage shocks SLF on contact
+- A container below catches insects for easy removal
 
-## Key Risks / Unknowns
+**Why it's better than the status quo:**
+- Eliminates SLF year-round without continuous spraying
+- Requires no modifications to the harvester; one-time purchase rather than a recurring cost
 
-- Damage to grapes/vines.
- Test by seeing how much wind store-bought grapes can take before falling off the vine.
-- Lanternflies getting stuck in the blower
- Test with different geometries of the mechanical design of the tube
-- Blower’s force is not strong enough to detach lanternflies from grapes
- Take weight samples of lanternflies and their grab force to calculate the amount of wind force needed to remove them.
- 
+### Key Risks and Unknowns
 
-## Questions for the Client
+- **Damage to grapes/vines** — Test by measuring how much wind force store-bought grapes can sustain before detaching from the vine.
+- **Lanternflies getting stuck in the blower** — Test different blower geometries to ensure clear passage.
+- **Insufficient blower force** — Weigh lanternfly samples and measure grip force to calculate the wind force required for removal.
 
-1. When dealing with the SLFs, do they often stay on the vine when removing grapes?
-   *Decision affected:*  This would change our blower design, as we would need to prototype to make sure that we do not remove grapes as well as the SLFs.
+### Questions for the Client
 
-2. If SLF contamination occurs in grape products, do the machines in the processing facilities need to be shut down and cleaned afterwards?
-   *Decision affected:*  While this would not directly affect our decision making, this would clarify the impact on the end user, since we would be more aware of the negative impacts of SLF contamination, particularly in the cost of and time lost to temporarily shutting down facilities.
+1. **Do SLF tend to stay on the vine when grapes are being removed?**  
+   *Decision affected:* This would influence blower design — we would need to prototype carefully to ensure the airflow removes SLF without also dislodging grapes.
 
-3. Is there space in the fields to place a structure such as a tower?
- *Decision affected:* If we are not able to place something in the field, we may not be able to implement our vibration solution in the currently intended method.
+2. **If SLF contamination occurs, do processing facility machines need to be shut down and cleaned?**  
+   *Decision affected:* This would help clarify the full downstream cost of contamination and strengthen the case for intervention.
 
+3. **Is there space in the field to install a freestanding structure such as a tower?**  
+   *Decision affected:* If field placement is not feasible, the vibration tower concept would need to be redesigned or reconsidered.
 
-## Sources Cited
+### Sources
 
-- 60 Hz vibration study:
-https://www.ars.usda.gov/research/publications/publication/?seqNo115=392118 
+- [60 Hz vibration study — USDA ARS](https://www.ars.usda.gov/research/publications/publication/?seqNo115=392118)
+- SLF contamination threshold (1–2 adult SLF per kg slurry) — Professor Steve Heim, February 9th PM lab section
 
-- SLF needed to contaminate 1 kg slurry:
-Professor Steve Heim on Monday, February 9th during the PM lab section
+---
+
+## Functional Prototype {#functional-prototype}
+
+### Purpose of the Prototype
+
+The goal of this prototype was to validate Concept A — a blower-based system that produces a directed burst of air to dislodge spotted lanternflies from grapevines before they enter the harvester. The prototype consisted of a 3D-printed PLA funnel and motor housing powered by an Arduino Uno Minima Rev4, designed to test whether a compact fan system could generate sufficient airflow to remove SLF-sized insects.
+
+### What Was Tested
+
+| Test | Method |
+|------|--------|
+| Wind speed / motor output | Marked fan blades; captured slow-motion video and counted RPM (~3,500 RPM at 5V via Arduino) |
+| Wind pressure | Calculated from wind velocity and cross-sectional surface area |
+| Funnel shape | Simulated in Autodesk Fusion 360; circular cross-section evaluated for pressure distribution |
+| Material durability | Manual flex test on PLA funnel |
+| Required force / air pattern | Real-life simulation using a cardboard lanternfly taped to a string-and-tape "vine" with grapes |
+
+### Outcomes
+
+- **Wind speed:** At 5V, the motor produced approximately 3,500 RPM. A dedicated anemometer was unavailable, so RPM was measured via slow-motion video.
+- **Funnel geometry:** The circular funnel produced an even pressure distribution across the outlet, which is desirable for consistent insect removal.
+- **Material:** The PLA funnel showed slight flex under hand pressure — acceptable for a proof-of-concept prototype, but not suitable for field conditions without a material change.
+- **Air pattern:** A sudden burst of air proved significantly more effective than a constant stream at dislodging the simulated SLF, consistent with the insects' "flighty" escape behavior. This informs the control strategy: a pulsed output is preferred over continuous flow.
+
+### Success Criteria
+
+- The system must generate sufficient airflow to dislodge adult SLF (mean weight: 0.331 g, per [Stop SLF proceedings](https://www.stopslf.org/stopslf/assets/File/Spotted-Lanternfly-RTD-Proceedings-Oct-2024.pdf))
+- The blower must not deviate more than 10 degrees from its mounted position during operation
+- The system will be simplified to a single unit for harvester attachment
+- The blower must be capable of producing a burst of air in under 1 second
+
+### Design Improvements Identified
+
+- **Increase airflow:** Add a planetary gearbox to step up fan speed beyond what the motor alone provides
+- **Improve intake:** Add holes to the bottom of the motor housing so the fan can draw air from outside rather than recirculating
+- **Motor housing height:** Extend side walls to fully enclose the fan blades
+- **Tolerances:** Widen shaft, tubing, and wire feedthrough holes — initial tolerances were too tight for proper assembly
+- **Sealing:** Add tube fittings at nozzle connections to eliminate air leaks
+- **Fan blade redesign:** The current symmetric impeller draws air from the high-pressure side, which is opposite to the intended direction. Either add intake holes on the back face or redesign the funnel system to correct the airflow direction
