@@ -120,3 +120,102 @@ The goal of this prototype was to validate Concept A — a blower-based system t
 - **Tolerances:** Widen shaft, tubing, and wire feedthrough holes — initial tolerances were too tight for proper assembly
 - **Sealing:** Add tube fittings at nozzle connections to eliminate air leaks
 - **Fan blade redesign:** The current symmetric impeller draws air from the high-pressure side, which is opposite to the intended direction. Either add intake holes on the back face or redesign the funnel system to correct the airflow direction
+
+---
+
+## Client Report {#client-report}
+
+### Final Solution
+
+Our final proposed solution was a blower-based attachment mounted onto a grape harvester to remove spotted lanternflies (SLF) before they enter the harvesting system. The device uses short bursts of airflow to agitate and physically displace SLF from the vines while minimizing disturbance to the grapes themselves.
+
+The final prototype consisted of:
+- A 3D-printed PLA motor housing and funnel
+- A directional fan blade system
+- A 12V DC brushed motor
+- Arduino-controlled operation
+- A nozzle designed to concentrate airflow toward the vines
+
+The system was designed to be low-cost, easy to mount, and minimally disruptive to existing harvester operation.
+
+### How the System Works
+
+The blower mounts near the intake region of the grape harvester and directs air toward the vines immediately before harvesting occurs.
+
+The system works in three stages:
+
+1. The motor spins the directional fan blades inside the enclosed housing.
+2. Air is funneled through the nozzle, increasing outlet velocity.
+3. Pulsed bursts of air dislodge SLF from the vine before grapes enter the harvester.
+
+Testing showed that short bursts of air were more effective than continuous airflow because they triggered the lanternflies’ instinct to release and fly away.
+
+### Prototype Testing and Results
+
+We tested the prototype against three primary success criteria:
+
+| Test | Result |
+|------|--------|
+| Wind speed | Maximum measured air velocity of 10.28 m/s |
+| Material strength | Housing remained elastically deformed under 177 N force |
+| SLF removal effectiveness | Mock lanternflies removed from vine setup within 1–2 seconds |
+
+Additional airflow simulations were performed using SimScale to estimate pressure and airflow behavior through the funnel geometry.
+
+Key measured values:
+- Inlet velocity: 3.1 m/s
+- Maximum pressure: 191.18 Pa
+- Dynamic pressure: 183.75 Pa
+- Air displacement exceeded target requirement of 1,000 cm³/s
+
+### Development Process
+
+#### Initial Prototype
+
+The first design did not generate enough thrust to effectively remove lanternflies. To improve performance, we:
+- Increased supplied motor voltage
+- Redesigned the housing for better airflow intake
+- Switched to a larger fan blade
+
+These changes demonstrated that airflow-based removal was feasible.
+
+#### Design Iteration
+
+Later iterations focused on:
+- Directional fan blade geometry
+- Improved airflow routing
+- Fully enclosed motor housing
+- System modeling in Fusion 360
+- Power system integration with Arduino controls
+
+Gearbox concepts were considered but ultimately determined unnecessary for the required fan speed.
+
+#### Final Prototype
+
+The final assembly integrated:
+- Directional fan blades
+- Redesigned nozzle and funnel
+- Reinforced motor housing
+- Arduino motor control
+
+The completed system was tested for airflow, durability, and SLF removal performance.
+
+### Conclusion
+
+Our testing demonstrated that the blower concept is a viable approach for reducing SLF contamination during grape harvesting. The prototype successfully generated sufficient airflow to remove simulated lanternflies while maintaining a compact and mountable design.
+
+The project validated the feasibility of:
+- Mechanical insect removal
+- Harvester-mounted airflow systems
+- Low-cost non-chemical SLF mitigation
+
+### Recommended Next Steps
+
+Future work should focus on:
+- Testing with live spotted lanternflies
+- Field testing on an active grape harvester
+- Scaling the system to multiple blower units
+- Investigating compressed-air implementations for higher airflow output
+- Improving long-term durability with stronger materials than PLA
+
+Although the current prototype demonstrates feasibility, additional real-world validation is needed before deployment in commercial vineyard operations.
